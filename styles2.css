@@ -1,0 +1,155 @@
+@media (min-width: 1000px) {
+  .logo {
+    width: 10vw;
+  }
+}
+@media (max-width: 700px) {
+  .diensten {
+    position: static;
+    width: 100%;
+    height: 40vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 24vw;
+    margin-right: 2vw;
+  }
+  .nav-container {
+    justify-content: space-between;
+    height: 12vw;
+  }
+  .nav-items {
+    display: none;
+  }
+  .drop-btn {
+    display: block;
+  }
+  .nav-link {
+    font-size: 12px;
+    padding: 5px 5px;
+    font-weight: 600;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .description {
+    font-size: 3vw;
+    padding: 1vw 0 5vw 0;
+    line-height: 200%;
+    width: 60%;
+    text-align: center;
+  }
+  #glide-controls {
+    width: 100%;
+    align-items: center;
+    right: 0;
+    height: 30vw;
+    top: 30vw;
+  }
+  .glide {
+    width: 100%;
+    display: block;
+  }
+  #glide-track {
+    width: 100%;
+    height: 50vw;
+  }
+  .item1,
+  .item2,
+  .item3 {
+    height: 33vw;
+    width: 32vw;
+  }
+  #button-left {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .vector-left,
+  .vector-right {
+    width: 50%;
+  }
+  .vec-6,
+  .vec-7 {
+    margin-left: -4vw;
+  }
+  .overlay {
+    margin-top: 12vw;
+    width: 26vw;
+  }
+  .overlay-title {
+    font-size: 2.7vw;
+    margin-bottom: 2vw;
+  }
+  .overlay-text {
+    font-size: 1.9vw;
+    line-height: 160%;
+  }
+  .item1:hover .overlay,
+  .item2:hover .overlay,
+  .item3:hover .overlay {
+    height: 28vw;
+    margin-top: 1vw;
+  }
+  .item1:hover .overlay-title,
+  .item2:hover .overlay-title,
+  .item3:hover .overlay-title {
+    margin: -3.5vw 0 1.5vw -1.5vw;
+  }
+  #technical {
+    margin-top: 130vw;
+  }
+  .tech-title {
+    font-size: 4vw;
+  }
+  .tech-txt {
+    font-size: 1.8vw;
+    line-height: 167.5%;
+    font-weight: 700;
+  }
+  .meer {
+    font-size: 1.5vw;
+  }
+  .arr {
+    width: 7vw;
+  }
+  .stripe {
+    margin-right: -1.9vw;
+    margin-left: 1vw;
+  }
+  #cijfers-title {
+    margin-top: 37vw;
+    font-size: 4vw;
+  }
+  .bottom-logo {
+    width: 20vw;
+  }
+  .num-text {
+    font-weight: 400;
+    font-size: 1.7vw;
+  }
+  .contact-icon {
+    height: 4vw;
+    width: 4vw;
+  }
+  .adress {
+    font-size: 1.8vw;
+    font-weight: 600;
+    line-height: 177.5%;
+  }
+  .adress-txt {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .sub-adress {
+    font-size: 1.7vw;
+  }
+  .left-footer,
+  .right-footer {
+    font-size: 2vw;
+    line-height: 17px;
+  }
+}
