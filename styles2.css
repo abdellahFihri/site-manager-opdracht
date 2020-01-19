@@ -153,3 +153,32 @@
     line-height: 17px;
   }
 }
+@media (max-width:440px){
+
+  .header-text{
+font-size: 13px;
+  }
+  .title{
+    font-size: 30px;
+  }
+  .description{
+    font-size: 15px;
+  }
+  .item1:hover .overlay,
+.item2:hover .overlay,
+.item3:hover .overlay {
+  height: 27vw;
+  margin-top: -1vw;
+}
+  .item1:hover .overlay-text,
+  .item2:hover .overlay-text,
+  .item3:hover .overlay-text {
+    font-size: 8px;
+    width: 100%;
+    line-height: 120%;
+  }
+  #technical{
+    margin-top:15vw;
+    height:44vw;
+  }
+}
